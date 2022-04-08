@@ -1,0 +1,335 @@
+{
+  "actors": [
+    {
+      "id": "f721c246-4728-4de8-85c4-438dd48c4b52",
+      "text": "Organizadores",
+      "type": "istar.Actor",
+      "x": 1120,
+      "y": 238,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "221fa9db-fc0a-49aa-ada0-5530b2301485",
+      "text": "Instrutores",
+      "type": "istar.Actor",
+      "x": 692,
+      "y": 370,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "cc735a5d-9d13-4c5a-b3ff-5d163281585b",
+      "text": "Alunos",
+      "type": "istar.Actor",
+      "x": 60,
+      "y": 329,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "52bd5f52-a046-4a04-ad52-36d340d928d4",
+      "text": "Aprender o assunto novo",
+      "type": "istar.Goal",
+      "x": 405,
+      "y": 335,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cc735a5d-9d13-4c5a-b3ff-5d163281585b",
+      "target": "221fa9db-fc0a-49aa-ada0-5530b2301485"
+    },
+    {
+      "id": "b68ab170-d8bb-4608-8ffb-af8f20d8d2e5",
+      "text": "Ser pago pelo trabalho",
+      "type": "istar.Goal",
+      "x": 899,
+      "y": 286,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "221fa9db-fc0a-49aa-ada0-5530b2301485",
+      "target": "f721c246-4728-4de8-85c4-438dd48c4b52"
+    },
+    {
+      "id": "cdabadc7-56fd-413d-99c8-03ffa791c376",
+      "text": "Aulas com boa didática",
+      "type": "istar.Quality",
+      "x": 404,
+      "y": 265,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cc735a5d-9d13-4c5a-b3ff-5d163281585b",
+      "target": "221fa9db-fc0a-49aa-ada0-5530b2301485"
+    },
+    {
+      "id": "8f941caa-367c-45fa-9dc8-1a5d0ec5cf3a",
+      "text": "Bom ambiente de trabalho",
+      "type": "istar.Quality",
+      "x": 1008,
+      "y": 522,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "221fa9db-fc0a-49aa-ada0-5530b2301485",
+      "target": "f721c246-4728-4de8-85c4-438dd48c4b52"
+    },
+    {
+      "id": "2bc48c57-587f-4511-81c4-9011ed696d19",
+      "text": "Ensinar assunto",
+      "type": "istar.Task",
+      "x": 397,
+      "y": 430,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "221fa9db-fc0a-49aa-ada0-5530b2301485",
+      "target": "cc735a5d-9d13-4c5a-b3ff-5d163281585b"
+    },
+    {
+      "id": "a141c7d9-864b-4ca6-a71c-82b3cb02d682",
+      "text": "Material para realização das aulas",
+      "type": "istar.Resource",
+      "x": 404,
+      "y": 535,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "221fa9db-fc0a-49aa-ada0-5530b2301485",
+      "target": "cc735a5d-9d13-4c5a-b3ff-5d163281585b"
+    },
+    {
+      "id": "a2e3b047-6c7a-4c9a-bd24-c284ad75a290",
+      "text": "Realizar matrícula",
+      "type": "istar.Task",
+      "x": 608,
+      "y": 179,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cc735a5d-9d13-4c5a-b3ff-5d163281585b",
+      "target": "f721c246-4728-4de8-85c4-438dd48c4b52"
+    },
+    {
+      "id": "8b9dafec-8237-4efc-b832-b1cabe64550c",
+      "text": "realizar exercícios",
+      "type": "istar.Task",
+      "x": 404,
+      "y": 480,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cc735a5d-9d13-4c5a-b3ff-5d163281585b",
+      "target": "221fa9db-fc0a-49aa-ada0-5530b2301485"
+    },
+    {
+      "id": "5a309c96-4653-41c4-8840-8de910d30d90",
+      "text": "Material de aula",
+      "type": "istar.Resource",
+      "x": 947,
+      "y": 383,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "221fa9db-fc0a-49aa-ada0-5530b2301485",
+      "target": "f721c246-4728-4de8-85c4-438dd48c4b52"
+    },
+    {
+      "id": "24c017f6-e676-47f1-bd69-f7a903022799",
+      "text": "Fornecer pagamento ao professor",
+      "type": "istar.Task",
+      "x": 608,
+      "y": 126,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "f721c246-4728-4de8-85c4-438dd48c4b52",
+      "target": "cc735a5d-9d13-4c5a-b3ff-5d163281585b"
+    },
+    {
+      "id": "4b8d681f-d2ac-4216-9a9a-b5b59a8f79ee",
+      "text": "bom ambiente de aprendizagem",
+      "type": "istar.Quality",
+      "x": 607,
+      "y": 61,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cc735a5d-9d13-4c5a-b3ff-5d163281585b",
+      "target": "f721c246-4728-4de8-85c4-438dd48c4b52"
+    }
+  ],
+  "links": [
+    {
+      "id": "2b0bf34f-7e6a-4ebf-b2f8-d7964cd10837",
+      "type": "istar.DependencyLink",
+      "source": "4b8d681f-d2ac-4216-9a9a-b5b59a8f79ee",
+      "target": "f721c246-4728-4de8-85c4-438dd48c4b52"
+    },
+    {
+      "id": "430573d0-6836-4bb3-b2c1-d5d294c88b0c",
+      "type": "istar.DependencyLink",
+      "source": "cc735a5d-9d13-4c5a-b3ff-5d163281585b",
+      "target": "4b8d681f-d2ac-4216-9a9a-b5b59a8f79ee"
+    },
+    {
+      "id": "d6ddfefe-45ac-4b0f-b050-bc70de45c15b",
+      "type": "istar.DependencyLink",
+      "source": "24c017f6-e676-47f1-bd69-f7a903022799",
+      "target": "cc735a5d-9d13-4c5a-b3ff-5d163281585b"
+    },
+    {
+      "id": "184d7b67-a93f-4276-a793-f731cd92679e",
+      "type": "istar.DependencyLink",
+      "source": "f721c246-4728-4de8-85c4-438dd48c4b52",
+      "target": "24c017f6-e676-47f1-bd69-f7a903022799"
+    },
+    {
+      "id": "390017bb-8307-48ab-ac4d-30cbd0348767",
+      "type": "istar.DependencyLink",
+      "source": "5a309c96-4653-41c4-8840-8de910d30d90",
+      "target": "f721c246-4728-4de8-85c4-438dd48c4b52"
+    },
+    {
+      "id": "4ba2cd9b-b42b-46a1-954c-cb4e7634b52b",
+      "type": "istar.DependencyLink",
+      "source": "221fa9db-fc0a-49aa-ada0-5530b2301485",
+      "target": "5a309c96-4653-41c4-8840-8de910d30d90"
+    },
+    {
+      "id": "88922b81-dc26-455b-b7a5-4a123c388a90",
+      "type": "istar.DependencyLink",
+      "source": "8b9dafec-8237-4efc-b832-b1cabe64550c",
+      "target": "221fa9db-fc0a-49aa-ada0-5530b2301485"
+    },
+    {
+      "id": "e31c8429-6a42-4bff-9e42-7390c3db86e0",
+      "type": "istar.DependencyLink",
+      "source": "cc735a5d-9d13-4c5a-b3ff-5d163281585b",
+      "target": "8b9dafec-8237-4efc-b832-b1cabe64550c"
+    },
+    {
+      "id": "f6dcbdc3-63fe-4f7f-b530-754c3d86816c",
+      "type": "istar.DependencyLink",
+      "source": "a2e3b047-6c7a-4c9a-bd24-c284ad75a290",
+      "target": "f721c246-4728-4de8-85c4-438dd48c4b52"
+    },
+    {
+      "id": "587f3553-b741-4ba6-b197-f63bf7930bc9",
+      "type": "istar.DependencyLink",
+      "source": "cc735a5d-9d13-4c5a-b3ff-5d163281585b",
+      "target": "a2e3b047-6c7a-4c9a-bd24-c284ad75a290"
+    },
+    {
+      "id": "17cba5ca-8876-4028-aa21-94a67201b948",
+      "type": "istar.DependencyLink",
+      "source": "a141c7d9-864b-4ca6-a71c-82b3cb02d682",
+      "target": "cc735a5d-9d13-4c5a-b3ff-5d163281585b"
+    },
+    {
+      "id": "fcf6b783-4a4f-42d7-9afd-2ac56faafe0b",
+      "type": "istar.DependencyLink",
+      "source": "221fa9db-fc0a-49aa-ada0-5530b2301485",
+      "target": "a141c7d9-864b-4ca6-a71c-82b3cb02d682"
+    },
+    {
+      "id": "e2f8b9c8-e837-43c9-9d5b-f7666d2d2a67",
+      "type": "istar.DependencyLink",
+      "source": "2bc48c57-587f-4511-81c4-9011ed696d19",
+      "target": "cc735a5d-9d13-4c5a-b3ff-5d163281585b"
+    },
+    {
+      "id": "98b35d55-e908-4e06-8227-19fb290438e6",
+      "type": "istar.DependencyLink",
+      "source": "221fa9db-fc0a-49aa-ada0-5530b2301485",
+      "target": "2bc48c57-587f-4511-81c4-9011ed696d19"
+    },
+    {
+      "id": "60c98ac3-9b18-4b24-aa0b-25a16b433952",
+      "type": "istar.DependencyLink",
+      "source": "8f941caa-367c-45fa-9dc8-1a5d0ec5cf3a",
+      "target": "f721c246-4728-4de8-85c4-438dd48c4b52"
+    },
+    {
+      "id": "2999f8a0-088b-4d5d-ac8b-860348881eb9",
+      "type": "istar.DependencyLink",
+      "source": "221fa9db-fc0a-49aa-ada0-5530b2301485",
+      "target": "8f941caa-367c-45fa-9dc8-1a5d0ec5cf3a"
+    },
+    {
+      "id": "facc438c-b5f9-4b01-9e3a-35b7bfb0854e",
+      "type": "istar.DependencyLink",
+      "source": "cdabadc7-56fd-413d-99c8-03ffa791c376",
+      "target": "221fa9db-fc0a-49aa-ada0-5530b2301485"
+    },
+    {
+      "id": "bbe1cd5c-31f2-4691-8ed5-36c96206af00",
+      "type": "istar.DependencyLink",
+      "source": "cc735a5d-9d13-4c5a-b3ff-5d163281585b",
+      "target": "cdabadc7-56fd-413d-99c8-03ffa791c376"
+    },
+    {
+      "id": "28bb9d4e-9c7f-4bfc-8190-cf8fe698a2f8",
+      "type": "istar.DependencyLink",
+      "source": "b68ab170-d8bb-4608-8ffb-af8f20d8d2e5",
+      "target": "f721c246-4728-4de8-85c4-438dd48c4b52"
+    },
+    {
+      "id": "039823f8-add3-486b-9a42-0cca1f29f4c9",
+      "type": "istar.DependencyLink",
+      "source": "221fa9db-fc0a-49aa-ada0-5530b2301485",
+      "target": "b68ab170-d8bb-4608-8ffb-af8f20d8d2e5"
+    },
+    {
+      "id": "dc09f0dc-08b4-4a17-8164-34df28411401",
+      "type": "istar.DependencyLink",
+      "source": "52bd5f52-a046-4a04-ad52-36d340d928d4",
+      "target": "221fa9db-fc0a-49aa-ada0-5530b2301485"
+    },
+    {
+      "id": "40bfb689-2d72-4e4e-8672-513305e34a8a",
+      "type": "istar.DependencyLink",
+      "source": "cc735a5d-9d13-4c5a-b3ff-5d163281585b",
+      "target": "52bd5f52-a046-4a04-ad52-36d340d928d4"
+    }
+  ],
+  "display": {
+    "e2f8b9c8-e837-43c9-9d5b-f7666d2d2a67": {
+      "vertices": [
+        {
+          "x": 424,
+          "y": 453
+        }
+      ]
+    },
+    "f721c246-4728-4de8-85c4-438dd48c4b52": {
+      "collapsed": true
+    },
+    "221fa9db-fc0a-49aa-ada0-5530b2301485": {
+      "collapsed": true
+    },
+    "cc735a5d-9d13-4c5a-b3ff-5d163281585b": {
+      "collapsed": true
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Thu, 07 Apr 2022 22:50:13 GMT",
+  "diagram": {
+    "width": 1389,
+    "height": 700,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
